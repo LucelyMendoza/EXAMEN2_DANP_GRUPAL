@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DE5F37E2CEFAD79003B0A44 /* HealthyDietAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5F37D2CEFAD79003B0A44 /* HealthyDietAppApp.swift */; };
+		7DE5F3802CEFAD79003B0A44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5F37F2CEFAD79003B0A44 /* ContentView.swift */; };
+		7DE5F3822CEFAD80003B0A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5F3812CEFAD80003B0A44 /* Assets.xcassets */; };
+		7DE5F3852CEFAD80003B0A44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE5F3842CEFAD80003B0A44 /* Preview Assets.xcassets */; };
+		7DE5F38F2CEFAD81003B0A44 /* HealthyDietAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5F38E2CEFAD81003B0A44 /* HealthyDietAppTests.swift */; };
+		7DE5F3992CEFAD81003B0A44 /* HealthyDietAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5F3982CEFAD81003B0A44 /* HealthyDietAppUITests.swift */; };
+		7DE5F39B2CEFAD81003B0A44 /* HealthyDietAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5F39A2CEFAD81003B0A44 /* HealthyDietAppUITestsLaunchTests.swift */; };
+		7DE5F3A82CEFAE07003B0A44 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5F3A72CEFAE06003B0A44 /* Food.swift */; };
+		7DE5F3AA2CEFAE55003B0A44 /* FoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5F3A92CEFAE55003B0A44 /* FoodService.swift */; };
+		7DE5F3AC2CEFAE81003B0A44 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5F3AB2CEFAE81003B0A44 /* FoodListView.swift */; };
+		7DE5F3AE2CEFAEC5003B0A44 /* FileFoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5F3AD2CEFAEC5003B0A44 /* FileFoodDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DE5F38B2CEFAD81003B0A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DE5F3722CEFAD79003B0A44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DE5F3792CEFAD79003B0A44;
+			remoteInfo = HealthyDietApp;
+		};
+		7DE5F3952CEFAD81003B0A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DE5F3722CEFAD79003B0A44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DE5F3792CEFAD79003B0A44;
+			remoteInfo = HealthyDietApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DE5F37A2CEFAD79003B0A44 /* HealthyDietApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyDietApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE5F37D2CEFAD79003B0A44 /* HealthyDietAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyDietAppApp.swift; sourceTree = "<group>"; };
+		7DE5F37F2CEFAD79003B0A44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DE5F3812CEFAD80003B0A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DE5F3842CEFAD80003B0A44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DE5F38A2CEFAD81003B0A44 /* HealthyDietAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyDietAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE5F38E2CEFAD81003B0A44 /* HealthyDietAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyDietAppTests.swift; sourceTree = "<group>"; };
+		7DE5F3942CEFAD81003B0A44 /* HealthyDietAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyDietAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE5F3982CEFAD81003B0A44 /* HealthyDietAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyDietAppUITests.swift; sourceTree = "<group>"; };
+		7DE5F39A2CEFAD81003B0A44 /* HealthyDietAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyDietAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DE5F3A72CEFAE06003B0A44 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		7DE5F3A92CEFAE55003B0A44 /* FoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodService.swift; sourceTree = "<group>"; };
+		7DE5F3AB2CEFAE81003B0A44 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		7DE5F3AD2CEFAEC5003B0A44 /* FileFoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileFoodDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DE5F3772CEFAD79003B0A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE5F3872CEFAD81003B0A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE5F3912CEFAD81003B0A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DE5F3712CEFAD79003B0A44 = {
+			isa = PBXGroup;
+			children = (
+				7DE5F37C2CEFAD79003B0A44 /* HealthyDietApp */,
+				7DE5F38D2CEFAD81003B0A44 /* HealthyDietAppTests */,
+				7DE5F3972CEFAD81003B0A44 /* HealthyDietAppUITests */,
+				7DE5F37B2CEFAD79003B0A44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DE5F37B2CEFAD79003B0A44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5F37A2CEFAD79003B0A44 /* HealthyDietApp.app */,
+				7DE5F38A2CEFAD81003B0A44 /* HealthyDietAppTests.xctest */,
+				7DE5F3942CEFAD81003B0A44 /* HealthyDietAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DE5F37C2CEFAD79003B0A44 /* HealthyDietApp */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5F37D2CEFAD79003B0A44 /* HealthyDietAppApp.swift */,
+				7DE5F3A92CEFAE55003B0A44 /* FoodService.swift */,
+				7DE5F3A72CEFAE06003B0A44 /* Food.swift */,
+				7DE5F3AD2CEFAEC5003B0A44 /* FileFoodDetailView.swift */,
+				7DE5F3AB2CEFAE81003B0A44 /* FoodListView.swift */,
+				7DE5F37F2CEFAD79003B0A44 /* ContentView.swift */,
+				7DE5F3812CEFAD80003B0A44 /* Assets.xcassets */,
+				7DE5F3832CEFAD80003B0A44 /* Preview Content */,
+			);
+			path = HealthyDietApp;
+			sourceTree = "<group>";
+		};
+		7DE5F3832CEFAD80003B0A44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5F3842CEFAD80003B0A44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DE5F38D2CEFAD81003B0A44 /* HealthyDietAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5F38E2CEFAD81003B0A44 /* HealthyDietAppTests.swift */,
+			);
+			path = HealthyDietAppTests;
+			sourceTree = "<group>";
+		};
+		7DE5F3972CEFAD81003B0A44 /* HealthyDietAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5F3982CEFAD81003B0A44 /* HealthyDietAppUITests.swift */,
+				7DE5F39A2CEFAD81003B0A44 /* HealthyDietAppUITestsLaunchTests.swift */,
+			);
+			path = HealthyDietAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DE5F3792CEFAD79003B0A44 /* HealthyDietApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE5F39E2CEFAD81003B0A44 /* Build configuration list for PBXNativeTarget "HealthyDietApp" */;
+			buildPhases = (
+				7DE5F3762CEFAD79003B0A44 /* Sources */,
+				7DE5F3772CEFAD79003B0A44 /* Frameworks */,
+				7DE5F3782CEFAD79003B0A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthyDietApp;
+			productName = HealthyDietApp;
+			productReference = 7DE5F37A2CEFAD79003B0A44 /* HealthyDietApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DE5F3892CEFAD81003B0A44 /* HealthyDietAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE5F3A12CEFAD81003B0A44 /* Build configuration list for PBXNativeTarget "HealthyDietAppTests" */;
+			buildPhases = (
+				7DE5F3862CEFAD81003B0A44 /* Sources */,
+				7DE5F3872CEFAD81003B0A44 /* Frameworks */,
+				7DE5F3882CEFAD81003B0A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DE5F38C2CEFAD81003B0A44 /* PBXTargetDependency */,
+			);
+			name = HealthyDietAppTests;
+			productName = HealthyDietAppTests;
+			productReference = 7DE5F38A2CEFAD81003B0A44 /* HealthyDietAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DE5F3932CEFAD81003B0A44 /* HealthyDietAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE5F3A42CEFAD81003B0A44 /* Build configuration list for PBXNativeTarget "HealthyDietAppUITests" */;
+			buildPhases = (
+				7DE5F3902CEFAD81003B0A44 /* Sources */,
+				7DE5F3912CEFAD81003B0A44 /* Frameworks */,
+				7DE5F3922CEFAD81003B0A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DE5F3962CEFAD81003B0A44 /* PBXTargetDependency */,
+			);
+			name = HealthyDietAppUITests;
+			productName = HealthyDietAppUITests;
+			productReference = 7DE5F3942CEFAD81003B0A44 /* HealthyDietAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DE5F3722CEFAD79003B0A44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7DE5F3792CEFAD79003B0A44 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					7DE5F3892CEFAD81003B0A44 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 7DE5F3792CEFAD79003B0A44;
+					};
+					7DE5F3932CEFAD81003B0A44 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 7DE5F3792CEFAD79003B0A44;
+					};
+				};
+			};
+			buildConfigurationList = 7DE5F3752CEFAD79003B0A44 /* Build configuration list for PBXProject "HealthyDietApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DE5F3712CEFAD79003B0A44;
+			productRefGroup = 7DE5F37B2CEFAD79003B0A44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DE5F3792CEFAD79003B0A44 /* HealthyDietApp */,
+				7DE5F3892CEFAD81003B0A44 /* HealthyDietAppTests */,
+				7DE5F3932CEFAD81003B0A44 /* HealthyDietAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DE5F3782CEFAD79003B0A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE5F3852CEFAD80003B0A44 /* Preview Assets.xcassets in Resources */,
+				7DE5F3822CEFAD80003B0A44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE5F3882CEFAD81003B0A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE5F3922CEFAD81003B0A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DE5F3762CEFAD79003B0A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE5F3AC2CEFAE81003B0A44 /* FoodListView.swift in Sources */,
+				7DE5F3802CEFAD79003B0A44 /* ContentView.swift in Sources */,
+				7DE5F3AA2CEFAE55003B0A44 /* FoodService.swift in Sources */,
+				7DE5F37E2CEFAD79003B0A44 /* HealthyDietAppApp.swift in Sources */,
+				7DE5F3A82CEFAE07003B0A44 /* Food.swift in Sources */,
+				7DE5F3AE2CEFAEC5003B0A44 /* FileFoodDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE5F3862CEFAD81003B0A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE5F38F2CEFAD81003B0A44 /* HealthyDietAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE5F3902CEFAD81003B0A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE5F39B2CEFAD81003B0A44 /* HealthyDietAppUITestsLaunchTests.swift in Sources */,
+				7DE5F3992CEFAD81003B0A44 /* HealthyDietAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DE5F38C2CEFAD81003B0A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DE5F3792CEFAD79003B0A44 /* HealthyDietApp */;
+			targetProxy = 7DE5F38B2CEFAD81003B0A44 /* PBXContainerItemProxy */;
+		};
+		7DE5F3962CEFAD81003B0A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DE5F3792CEFAD79003B0A44 /* HealthyDietApp */;
+			targetProxy = 7DE5F3952CEFAD81003B0A44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7DE5F39C2CEFAD81003B0A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DE5F39D2CEFAD81003B0A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DE5F39F2CEFAD81003B0A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthyDietApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhon.HealthyDietApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DE5F3A02CEFAD81003B0A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthyDietApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhon.HealthyDietApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DE5F3A22CEFAD81003B0A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhon.HealthyDietAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthyDietApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthyDietApp";
+			};
+			name = Debug;
+		};
+		7DE5F3A32CEFAD81003B0A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhon.HealthyDietAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthyDietApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthyDietApp";
+			};
+			name = Release;
+		};
+		7DE5F3A52CEFAD81003B0A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhon.HealthyDietAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthyDietApp;
+			};
+			name = Debug;
+		};
+		7DE5F3A62CEFAD81003B0A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhon.HealthyDietAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthyDietApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DE5F3752CEFAD79003B0A44 /* Build configuration list for PBXProject "HealthyDietApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE5F39C2CEFAD81003B0A44 /* Debug */,
+				7DE5F39D2CEFAD81003B0A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE5F39E2CEFAD81003B0A44 /* Build configuration list for PBXNativeTarget "HealthyDietApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE5F39F2CEFAD81003B0A44 /* Debug */,
+				7DE5F3A02CEFAD81003B0A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE5F3A12CEFAD81003B0A44 /* Build configuration list for PBXNativeTarget "HealthyDietAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE5F3A22CEFAD81003B0A44 /* Debug */,
+				7DE5F3A32CEFAD81003B0A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE5F3A42CEFAD81003B0A44 /* Build configuration list for PBXNativeTarget "HealthyDietAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE5F3A52CEFAD81003B0A44 /* Debug */,
+				7DE5F3A62CEFAD81003B0A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DE5F3722CEFAD79003B0A44 /* Project object */;
+}
